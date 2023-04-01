@@ -1,0 +1,50 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+.logintitle{
+    font-size: 60px;
+    font-family: "Varela Round", sans-serif;
+}
+.formlogin{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.formlogin > label{
+    margin: 10px 0;   
+}
+.formlogin > input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginbtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+.loginbtn:hover{
+    background-color: darkblue;
+}
+.regbtn{
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
